@@ -1,0 +1,18 @@
+{
+  "name": "@jetpack-monorepo-repro/package-c",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.163",
+    "typescript": "4.0.3"
+  }
+}

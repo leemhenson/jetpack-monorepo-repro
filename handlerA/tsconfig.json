@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "sourceRoot": "/",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "target": "ES2019"
+  },
+  "references": [
+    {
+      "path":"../packages/packageB"
+    },
+    {
+      "path":"../packages/packageC"
+    }
+  ]
+}
